@@ -22,7 +22,7 @@ import PageObjectdesigns.checkOutPage;
 import PageObjectdesigns.landingpage;
 
 public class Purchaseordersuccess extends BaseTest {
-	String productName = "ZARA";
+	String productName = "ZARA COAT 3";
 //	@Test(groups= {"login feature"},retryAnalyzer=RetryUtility.class)
 //	public void successfulLogin() throws Exception
 //	{
