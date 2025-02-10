@@ -105,6 +105,8 @@ public class EcommerceAppStandalone {
 		
 	    driver.close();
 		
+	    System.out.println("new line added"); 
+	   
 	}
 
 }
