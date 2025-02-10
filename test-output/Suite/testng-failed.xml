@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="login feature"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="seleniumframework.Tests.Errorlogin">
+        <methods>
+          <include name="errorLogin"/>
+        </methods>
+      </class> <!-- seleniumframework.Tests.Errorlogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

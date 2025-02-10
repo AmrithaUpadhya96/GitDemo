@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ECommerce Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="BaseTestComponent.Listners"/>
+  </listeners>
+  <test thread-count="5" name="product verify and order place Test(failed)" verbose="0">
+    <classes>
+      <class name="seleniumframework.Tests.Purchaseordersuccess">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="productVerifyFail"/>
+          <include name="closeApplication"/>
+          <include name="Ordersubmit"/>
+          <include name="verifyOrderPageForProduct"/>
+        </methods>
+      </class> <!-- seleniumframework.Tests.Purchaseordersuccess -->
+    </classes>
+  </test> <!-- product verify and order place Test(failed) -->
+</suite> <!-- Failed suite [ECommerce Suite] -->

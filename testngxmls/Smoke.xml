@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" thread-count="2" name="ECommerce Suite">
+	<listeners>
+		<listener class-name="BaseTestComponent.Listners"/>
+	</listeners>
+  <test name="Error Login feature Test">
+    <classes>
+      <class name="seleniumframework.Tests.Errorlogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
