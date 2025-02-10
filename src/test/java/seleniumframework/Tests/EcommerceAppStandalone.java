@@ -104,9 +104,7 @@ public class EcommerceAppStandalone {
 		driver.findElement(By.xpath("//button[text()=' Sign Out ']")).click();
 		
 	    driver.close();
-		
-	    System.out.println("new line added"); 
-	   
+	
 	}
 
 }
